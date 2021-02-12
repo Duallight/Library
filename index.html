@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8"/>
+<title>Personal Library</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styleSheet.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet"> 
+<style></style>
+
+    <body class="back">
+        <div class= "title">
+            <h1>Library</h1>
+
+        </div>
+        <div class="shelf" id="bookShelf" >
+
+        </div>
+        <div class="form-popup" id="addBookForm">
+            <form class="form-container" id="form">
+                <h1>
+                    New Book
+                </h1>
+                <p>
+
+                    <h4><label for="book title"> Title </label></h4>
+                    <input type="text" placeholder="Title" name="titleInput" id="getTitle" required>
+                </p>
+                
+                <p>
+                    <h4><label for="author">Author</label></h4>
+                    <input type="text" placeholder="Author" name="author" id="getAuthor" required>
+                </p>
+
+                <p>
+                    <h4><label for="genre">Genre</label></h4>
+                    <input type="text" placeholder="Genre" name="genre" id="getGenre" required>
+                </p>
+                
+                <p>
+                    <label for="finished">Finished?</label>
+                    <input type="checkbox" name="finished" id="finishedCheckBox">
+                </p>
+
+
+                <button type="submit" class="add" id="addToLibrary" style="font-family: 'Texturina';">Add</button>
+                <button type="button" class="btn-cancel" id="cancel" style="font-family: 'Texturina';">Cancel</button>
+            </form>
+        </div>
+        <div>
+            <button id = "addButton" class="addBtn" style="font-family: 'Texturina';">New Book</button>
+        </div>
+
+    </body>
+<script src="script.js"></script>
+</html> 

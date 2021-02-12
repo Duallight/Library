@@ -1,0 +1,102 @@
+:root {
+    --darkBlue: #1D2228;
+    --lighterBlue:#333c47;
+    --grayBlue: #3d5353;
+    --orangeThing: #FB8122;
+}
+.title {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1px 1px 1px 1px;
+}
+.shelf {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 30%);
+    background-color: var(--grayBlue);
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 100px;
+    width: 80%;
+    height: 80%;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: 0px 0px 0px 0px;
+}
+.addBtn {
+    padding-top: 0px;
+    background-color: var(--lighterBlue);
+    border-color: var(--orangeThing);
+    color: var(--orangeThing);
+    border-radius: 3px;
+    position: fixed;
+    left: 40%;
+    bottom: 2%;
+    height: 5%;
+    width: 20%;
+}
+.book {
+    color: #E1E2E2;
+    background-color: var(--darkBlue);
+    border-style: solid;
+    border-color: var(--orangeThing);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.back {
+    background-color: var(--darkBlue);
+    color: var(--orangeThing);
+    font-family: 'Texturina', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    margin: auto;
+    width: 20%;
+    height: 50%;
+    padding: 10px;
+    background-color: var(--darkBlue);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--orangeThing);
+}
+.finished-button {
+    background-color: var(--grayBlue);
+    border-color: var(--orangeThing);
+    color: var(--orangeThing);
+    border-radius: 3px;
+    font-family: 'Texturina';
+}
+.unfinished-button {
+    background-color:var(--grayBlue);
+    border-color: var(--orangeThing);
+    color: white;
+    border-radius: 3px;
+    font-family: 'Texturina';
+}
+.delete-button {
+    background-color: var(--grayBlue);
+    border-color: var(--orangeThing);
+    color: var(--orangeThing);
+    border-radius: 3px;
+    font-family: 'Texturina';
+}
+.add {
+    background-color: var(--grayBlue);
+    border-color: var(--orangeThing);
+    color: var(--orangeThing);
+    border-radius: 3px;
+}
+.btn-cancel{
+    background-color: var(--grayBlue);
+    border-color: var(--orangeThing);
+    color: var(--orangeThing);
+    border-radius: 3px;
+}
